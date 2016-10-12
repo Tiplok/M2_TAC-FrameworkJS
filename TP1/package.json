@@ -1,0 +1,13 @@
+{
+  "name": "Example",
+  "namelower": "example",
+  "version": "0.0.1",
+  "description": "An example AngularJS project",
+  "readme": "README.md",
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}

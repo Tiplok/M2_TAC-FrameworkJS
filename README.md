@@ -1,2 +1,7 @@
 # M2_TAC-FrameworkJS
-Module 'TAC - Framework JS' du Master 2 e-services
+
+Master informatique 2ème année
+Année 2016-2017
+Technologies pour Applications Connectées - Framework JavaScript
+
+Framework utilisé : Angular
