@@ -1,0 +1,10 @@
+<div>
+    <form name="form" novalidate>
+        <input type="text" name="message" data-ng-model="vm.message" required />
+        <strong data-ng-show="form.message.$error.required">Obligatoire</strong>
+            <br />
+        <button type="button" data-ng-disabled="form.$invalid">OK</button>
+    </form>
+        <br />
+    {{ vm.message }}
+</div>
