@@ -1,0 +1,20 @@
+<div>
+    <input type="text" data-ng-model="vm.message" />
+        <br />
+    Normal : {{ vm.message }}
+        <br />
+    Majuscules : {{ vm.message | uppercase }}
+        <br />
+    Majuscules (depuis le controller) : {{ vm.messageEnMajuscule }}
+        <br />
+    Avec mon filtre perso : {{ vm.message | capitalize }}
+        <br />
+        <br />
+    BONUS - Date au format court : {{ vm.date | date:'short' }}
+        <br />
+    BONUS - Date au format spécifié : {{ vm.date | date:'dd/MM/yyyy' }}
+        <br />
+    BONUS - Prix avec le filtre "currency" : {{ vm.price | currency }}
+        <br />
+    BONUS - Prix avec le filtre "number" : {{ vm.price | number }}
+</div>
