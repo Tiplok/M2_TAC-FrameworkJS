@@ -1,0 +1,9 @@
+<div>
+    <input type="text" data-ng-model="vm.message" />
+    <button type="button" data-ng-repeat="type in vm.types" data-ng-click="vm.selectedType=type">
+        {{ type.name }}
+    </button>
+        <br />
+        <br />
+    <message data-text="vm.message" data-type="vm.selectedType"></message>
+</div>
